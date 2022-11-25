@@ -3,7 +3,7 @@
 /*Calcola la somma e la media dei primi 10 numeri di un array */
 
 
-let listNumbers = [7 , 10, 2 , 4 , 6 , 10 , 16545, 5 , 6 , 6 , 6 , 5 , 67 , 65 , 76 ,323,  6 , 6 , 5 , 67 , 65 , 76 ,323 ];
+let listNumbers = [7 , 10, 2 , 44 , 62 , 10 , 16, 5 , 6 , 6 , 6 , 5 , 67 , 65 , 76 ,323,  6 , 6 , 5 , 67 , 65 , 76 ,323 ];
 
 let total = 0;
 
@@ -11,9 +11,9 @@ for (let i = 0; i <= 10; i++) {
 
 total += listNumbers[i];
 
-media = total % listNumbers[i] ;
-
 };
+
+let media = total / 10;
 
 console.log(total);
 
