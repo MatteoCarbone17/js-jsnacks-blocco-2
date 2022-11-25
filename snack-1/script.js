@@ -6,17 +6,21 @@ se è dispari inseriscilo nell'array.
 
 let listNumber = [];
 
+console.log(listNumber);
+let userNumber
 
 for (let i = 0; i <= 6; i++) {
 
-    let userNumber = parseInt(prompt('scegli un numero'));
+     userNumber = parseInt(prompt('scegli un numero'));
 
-    let dispari = userNumber % 2 ; 
+    
 
-    if ( dispari == 0 ){
-        listNumber.push (dispari);
-        console.log(dispari);
+    if ( userNumber % 2 == 1){
+        listNumber.push (userNumber);
+        console.log(listNumber);
     }
+
+    console.log(userNumber)
 
 
 
