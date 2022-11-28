@@ -25,9 +25,9 @@ let sommaDispari = 0;
 
 for (let i = 0; i <= listNumbers.length; i++) {
 
-    if (sommaDispari = listNumbers[i] % 2 == 1 ){
+    if (i % 2 === 1 ){
         
-        sommaDispari *= listNumbers[i]
+        sommaDispari += listNumbers[i]
         console.log(sommaDispari)
 
     } 
